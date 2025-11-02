@@ -12,4 +12,5 @@ func main() {
 	basics.Constants()
 	basics.ForLoop()
 	basics.Arrays()
+	basics.Maps()
 }
