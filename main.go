@@ -1,4 +1,4 @@
-package main;
+package main
 
 import (
 	"fmt"
@@ -9,4 +9,7 @@ func main() {
 
 	fmt.Println("Hello, World!")
 	basics.Variables()
+	basics.Constants()
+	basics.ForLoop()
+	basics.Arrays()
 }
