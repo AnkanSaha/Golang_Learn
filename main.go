@@ -13,4 +13,5 @@ func main() {
 	basics.ForLoop()
 	basics.Arrays()
 	basics.Maps()
+	basics.ExampleRange()
 }
