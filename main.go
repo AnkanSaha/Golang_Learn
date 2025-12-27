@@ -14,4 +14,5 @@ func main() {
 	basics.Arrays()
 	basics.Maps()
 	basics.ExampleRange()
+	fmt.Print("A",basics.Makestruct(22));
 }
