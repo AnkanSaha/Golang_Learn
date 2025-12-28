@@ -30,4 +30,6 @@ func main() {
 	if users != nil {
 		users.ChnageAge(2)
 	}
+
+	basics.ShowunnammedStruct()
 }

@@ -35,14 +35,14 @@ type Oops struct {
 
 // rechiver type ( like method in js opps taking Oops pointer)
 
-func (modifyer Oops) ChnageStruct(name string, age int16, class string) {
+func (modifyer *Oops) ChnageStruct(name string, age int16, class string) {
 	modifyer.age = int32(age)
 	modifyer.name = string(name)
 	modifyer.class = string(class)
 }
 
 func Makestruct2() {
-	var myStruct = Oops{
+	var myStruct = Oops {
 		name: "Ankan",
 	}
 
@@ -70,4 +70,14 @@ func NewOppss(name string, age int) *NewOpps {
 		age:  age,
 	}
 	return &newOpesUser
+}
+
+// Unnamed Struct
+
+func ShowunnammedStruct (){
+	language := struct {
+		name string
+	} {"Ankan"}
+
+	fmt.Println("Struct Unnamed", language)
 }

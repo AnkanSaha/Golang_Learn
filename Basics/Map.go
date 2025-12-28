@@ -23,4 +23,15 @@ func Maps () {
 	} else {
 		fmt.Println("Key not found")
 	}
+
+	// map with any type
+
+	newMap := map[any]any{}
+
+	newMap["Ankan"] = "Saha"
+	newMap["Ankan1"] = "Saha"
+	newMap["Ankan2"] = "Saha"
+	newMap["Ankan3"] = "Saha"
+	
+	fmt.Println("newMap", newMap)
 }
