@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"learn_go/Basics"
+	"learn_go/IO"
 )
 
 func main() {
@@ -43,4 +44,6 @@ func main() {
 
 	basics.SendMailChannel()
 	basics.StartMutex()
+
+	io.ReadFile()
 }
