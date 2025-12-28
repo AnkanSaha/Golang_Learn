@@ -34,4 +34,8 @@ func main() {
 	basics.ShowunnammedStruct()
 	basics.MakeStructure()
 	basics.Payment()
+
+
+	basics.CreateEnum()
+	basics.UseGenetics()
 }
