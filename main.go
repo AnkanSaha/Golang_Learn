@@ -38,4 +38,6 @@ func main() {
 
 	basics.CreateEnum()
 	basics.UseGenetics()
+
+	basics.Routine()
 }

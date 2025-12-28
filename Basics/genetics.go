@@ -2,6 +2,7 @@ package basics
 
 import "fmt"
 
+
 func FuncWithGenetics[T int | string](status []T) int {
 	count := 0
 	for index, value := range status {
