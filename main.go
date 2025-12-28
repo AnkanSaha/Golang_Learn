@@ -40,4 +40,7 @@ func main() {
 	basics.UseGenetics()
 
 	basics.Routine()
+
+	basics.SendMailChannel()
+	basics.StartMutex()
 }
