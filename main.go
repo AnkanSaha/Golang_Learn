@@ -28,7 +28,7 @@ func main() {
 	users := basics.NewOppss("Rohut", 22)
 
 	if users != nil {
-		users.ChnageAge(2)
+		users.ChangeAge(2)
 	}
 
 	basics.ShowunnammedStruct()

@@ -60,7 +60,7 @@ type NewOpps struct {
 }
 
 // methods
-func (O *NewOpps) ChnageAge(age int) {
+func (O *NewOpps) ChangeAge(age int) {
 	O.age = age
 }
 
