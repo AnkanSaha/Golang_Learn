@@ -81,3 +81,28 @@ func ShowunnammedStruct (){
 
 	fmt.Println("Struct Unnamed", language)
 }
+
+
+// struct embedding
+
+type balance struct {
+	avl int
+}
+type user struct {
+	name string;
+	age int;
+	balance
+}
+
+
+func MakeStructure () {
+	userDetails := user {
+		name: "Ankan",
+		age: 22,
+		balance: balance {
+			avl: 222,
+		},
+	}
+
+	fmt.Println("struct embedding", userDetails)
+}

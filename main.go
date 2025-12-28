@@ -32,4 +32,6 @@ func main() {
 	}
 
 	basics.ShowunnammedStruct()
+	basics.MakeStructure()
+	basics.Payment()
 }
