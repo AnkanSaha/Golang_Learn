@@ -22,4 +22,12 @@ func main() {
 	if value2 != nil {
 		fmt.Println(*value2, value1)
 	}
+
+	basics.Makestruct2()
+
+	users := basics.NewOppss("Rohut", 22)
+
+	if users != nil {
+		users.ChnageAge(2)
+	}
 }
