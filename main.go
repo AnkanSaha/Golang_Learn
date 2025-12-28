@@ -15,4 +15,11 @@ func main() {
 	basics.Maps()
 	basics.ExampleRange()
 	fmt.Print("A",basics.Makestruct(22));
+	basics.FuncWithanyType("Ankan", "Saha")
+	basics.FunctionWithVariadicParams(1, 2, 3, "Ankan")
+	value1, value2 := basics.FunctionWithMultiReturn(22, 55)
+
+	if value2 != nil {
+		fmt.Println(*value2, value1)
+	}
 }
